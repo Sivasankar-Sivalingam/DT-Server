@@ -1,7 +1,7 @@
 # DT-Server
 It provides the Backend codeBase for Project DT.
 
-## Steps to run Project DT 
+## Steps to run Project DT-Server
 
 1. GitClone or Download the [DT-Server](https://github.com/Sivasankar-Sivalingam/DT-Server).
 
