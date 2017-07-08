@@ -7,7 +7,9 @@ var express = require('express'),
     Deployment = require('./models/deployment'),
     mongoDB = 'mongodb://localhost:27017/deployment';
 
-mongoose.connect(mongoDB);
+mongoose.connect(mongoDB, {
+    useMongoClient: true
+});
 mongoose.Promise = require('bluebird');
 
 app.use(bodyParser.urlencoded({
